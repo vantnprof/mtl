@@ -1,0 +1,1 @@
+from .tensorized_resnet import static_mtl_resnet18, static_mtl_resnet34

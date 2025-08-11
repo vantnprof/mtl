@@ -1,0 +1,257 @@
+{
+    "ResNet101-CIFAR10 - val_accuracy": 42520650,
+    "ResNet101-CIFAR10-25 - val_accuracy": 42520650,
+    "ResNet101-CIFAR10-25": 42520650,
+    "ResNet101-CIFAR10": 42520650,
+
+    "LR[K=75]-ResNet101-CIFAR10 - val_accuracy":   	10193009  ,
+    "LR[K=75]-ResNet101-CIFAR10-25":  	10193009,
+    "LR[K=75]-ResNet101-CIFAR10":  	10193009 ,
+    "LR[K=75]-ResNet101-CIFAR10-25 - val_accuracy":  	10193009,
+
+    "LR[K=150]-ResNet101-CIFAR10 - val_accuracy":  20260184 ,
+    "LR[K=150]-ResNet101-CIFAR10-25": 20260184,
+    "LR[K=150]-ResNet101-CIFAR10": 20260184,
+    "LR[K=150]-ResNet101-CIFAR10-25 - val_accuracy": 20260184,
+    
+    "LR[K=229]-ResNet101-CIFAR10 - val_accuracy":  30864275,
+    "LR[K=229]-ResNet101-CIFAR10-25": 30864275,
+    "LR[K=229]-ResNet101-CIFAR10": 30864275,
+    "LR[K=229]-ResNet101-CIFAR10-25 - val_accuracy": 30864275,
+
+    "LR[K=260]-ResNet101-CIFAR10 - val_accuracy":  	35025374 ,
+    "LR[K=260]-ResNet101-CIFAR10-25": 35025374,
+    "LR[K=260]-ResNet101-CIFAR10": 35025374,
+    "LR[K=260]-ResNet101-CIFAR10-25 - val_accuracy": 35025374,
+
+    "LR[K=300]-ResNet101-CIFAR10 - val_accuracy":  	 	40394534  ,
+    "LR[K=300]-ResNet101-CIFAR10-25":  	40394534 ,
+    "LR[K=300]-ResNet101-CIFAR10":  	40394534 ,
+    "LR[K=300]-ResNet101-CIFAR10-25 - val_accuracy":  	40394534 ,
+
+    "MLconv[R=400]-ResNet101-CIFAR10-25 - val_accuracy": 40818234,
+    "MLconv[R=400]-ResNet101-CIFAR10": 40818234,
+    "MLconv[R=400]-ResNet101-CIFAR10-25": 40818234,
+    "MLconv[R=400]-ResNet101-CIFAR10 - val_accuracy": 40818234,
+    
+    "MLconv[R=345]-ResNet101-CIFAR10-25 - val_accuracy": 35223029,
+    "MLconv[R=345]-ResNet101-CIFAR10": 35223029,
+    "MLconv[R=345]-ResNet101-CIFAR10-25": 35223029,
+    "MLconv[R=345]-ResNet101-CIFAR10 - val_accuracy":  	35223029,
+
+    "MLconv[R=300]-ResNet101-CIFAR10-25 - val_accuracy": 30645134,
+    "MLconv[R=300]-ResNet101-CIFAR10": 30645134,
+    "MLconv[R=300]-ResNet101-CIFAR10-25": 30645134,
+    "MLconv[R=300]-ResNet101-CIFAR10 - val_accuracy": 30645134,
+
+    "MLconv[R=200]-ResNet101-CIFAR10-25 - val_accuracy": 20472034,
+    "MLconv[R=200]-ResNet101-CIFAR10-25": 20472034,
+    "MLconv[R=200]-ResNet101-CIFAR10 - val_accuracy": 20472034,
+    "MLconv[R=200]-ResNet101-CIFAR10": 20472034,
+
+    "MLconv[R=100]-ResNet101-CIFAR10-25 - val_accuracy": 10298934,
+    "MLconv[R=100]-ResNet101-CIFAR10 - val_accuracy": 10298934,
+    "MLconv[R=100]-ResNet101-CIFAR10-25": 10298934,
+    "MLconv[R=100]-ResNet101-CIFAR10": 10298934,
+
+    "MLconv[R=50]-ResNet101-CIFAR10-25 - val_accuracy": 5212384,
+    "MLconv[R=50]-ResNet101-CIFAR10 - val_accuracy": 5212384,
+    "MLconv[R=50]-ResNet101-CIFAR10-25": 5212384,
+    "MLconv[R=50]-ResNet101-CIFAR10": 5212384,
+
+    "MLconv[R=1]-ResNet101-CIFAR10-25 - val_accuracy": 227565,   
+    "MLconv[R=1]-ResNet101-CIFAR10 - val_accuracy": 227565,
+    "MLconv[R=1]-ResNet101-CIFAR10-25": 227565,
+    "MLconv[R=1]-ResNet101-CIFAR10": 227565,
+    
+    "MTL[T=60]-ResNet101-CIFAR10-25": 27316289,
+    "MTL[T=60]-ResNet101-CIFAR10": 27316289,
+    "MTL[T=60]-ResNet101-CIFAR10 - val_accuracy": 27316289,
+    "MTL[T=60]-ResNet101-CIFAR10-25 - val_accuracy": 27316289,
+    
+    "MTL[T=45]-ResNet101-CIFAR10-25 - val_accuracy": 29937738,
+    "MTL[T=45]-ResNet101-CIFAR10 - val_accuracy": 29937738,
+    "MTL[T=45]-ResNet101-CIFAR10-25": 29937738,
+    "MTL[T=45]-ResNet101-CIFAR10": 29937738,
+
+    "MTL[T=43]-ResNet101-CIFAR10": 29938048,
+    "MTL[T=43]-ResNet101-CIFAR10-25": 29938048,
+    "MTL[T=43]-ResNet101-CIFAR10 - val_accuracy": 29938048,
+    "MTL[T=43]-ResNet101-CIFAR10-25 - val_accuracy": 29938048,
+
+    "MTL[T=42]-ResNet101-CIFAR10-25 - val_accuracy":  	30462026,
+    "MTL[T=42]-ResNet101-CIFAR10 - val_accuracy": 30462026,
+    "MTL[T=42]-ResNet101-CIFAR10-25": 30462026,
+    "MTL[T=42]-ResNet101-CIFAR10": 30462026,
+
+    "MTL[T=30]-ResNet101-CIFAR10-25 - val_accuracy": 32559178,
+    "MTL[T=30]-ResNet101-CIFAR10": 32559178,
+    "MTL[T=30]-ResNet101-CIFAR10 - val_accuracy": 32559178,
+    "MTL[T=30]-ResNet101-CIFAR10-25": 32559178,
+    
+    "MTL[T=16]-ResNet101-CIFAR10": 34656424,
+    "MTL[T=16]-ResNet101-CIFAR10-25": 34656424,
+    "MTL[T=16]-ResNet101-CIFAR10 - val_accuracy": 34656424,
+    "MTL[T=16]-ResNet101-CIFAR10-25 - val_accuracy": 34656424,
+    
+    "MTL[T=15]-ResNet101-CIFAR10-25 - val_accuracy": 35180618,
+    "MTL[T=15]-ResNet101-CIFAR10 - val_accuracy": 35180618,
+    "MTL[T=15]-ResNet101-CIFAR10-25": 35180618,
+    "MTL[T=15]-ResNet101-CIFAR10": 35180618,
+    
+    "MTL[T=4]-ResNet101-CIFAR10": 38326356,
+    "MTL[T=4]-ResNet101-CIFAR10-25": 38326356,
+    "MTL[T=4]-ResNet101-CIFAR10 - val_accuracy": 38326356,
+    "MTL[T=4]-ResNet101-CIFAR10-25 - val_accuracy": 38326356,
+
+    "MTL[T=3]-ResNet101-CIFAR10-25 - val_accuracy": 40423498,
+    "MTL[T=3]-ResNet101-CIFAR10 - val_accuracy": 40423498,
+    "MTL[T=3]-ResNet101-CIFAR10-25": 40423498,
+    "MTL[T=3]-ResNet101-CIFAR10": 40423498,
+
+    "LR-MTL[T=42,P=175]-ResNet101-CIFAR10":  	20251210,
+    "LR-MTL[T=42,P=175]-ResNet101-CIFAR10-25":  	20251210,
+    "LR-MTL[T=42,P=175]-ResNet101-CIFAR10 - val_accuracy":  	20251210,
+    "LR-MTL[T=42,P=175]-ResNet101-CIFAR10-25 - val_accuracy":  	20251210,
+
+    "LR-MTL[T=60,P=50]-ResNet101-CIFAR10":  	 	10507338 ,
+    "LR-MTL[T=60,P=50]-ResNet101-CIFAR10-25":  	10507338,
+    "LR-MTL[T=60,P=50]-ResNet101-CIFAR10 - val_accuracy":  	10507338,
+    "LR-MTL[T=60,P=50]-ResNet101-CIFAR10-25 - val_accuracy":  	10507338,
+
+    "LR-MTL[T=42,lambda_ce=0.70]-ResNet101-CIFAR10": 29248888,
+    "LR-MTL[T=42,lambda_ce=0.70]-ResNet101-CIFAR10-25": 29248888,
+    "LR-MTL[T=42,lambda_ce=0.70]-ResNet101-CIFAR10 - val_accuracy": 29248888,
+    "LR-MTL[T=42,lambda_ce=0.70]-ResNet101-CIFAR10-25 - val_accuracy": 29248888,
+
+    "LR-MTL[T=15,lambda_ce=0.70]-ResNet101-CIFAR10": 33810592,
+    "LR-MTL[T=15,lambda_ce=0.70]-ResNet101-CIFAR10-25": 33810592,
+    "LR-MTL[T=15,lambda_ce=0.70]-ResNet101-CIFAR10 - val_accuracy": 33810592,
+    "LR-MTL[T=15,lambda_ce=0.70]-ResNet101-CIFAR10-25 - val_accuracy": 33810592,
+
+    "LR-MTL[T=3,lambda_ce=0.70]-ResNet101-CIFAR10": 39731282,
+    "LR-MTL[T=3,lambda_ce=0.70]-ResNet101-CIFAR10-25": 39731282,
+    "LR-MTL[T=3,lambda_ce=0.70]-ResNet101-CIFAR10 - val_accuracy": 39731282,
+    "LR-MTL[T=3,lambda_ce=0.70]-ResNet101-CIFAR10-25 - val_accuracy": 39731282,
+
+    "YOLO11x-DOTAv1": 56891101,
+    "YOLO11x-DOTAv1-23": 56891101,
+    "YOLO11x-DOTAv1 - metrics/mAP50(B)": 56891101,
+    "YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 56891101,
+    "YOLO11x-DOTAv1 - metrics/mAP50-95(B)": 56891101,
+    "YOLO11x-DOTAv1-23 - metrics/mAP50-95(B)": 56891101,
+
+    "LR[K=180]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 35128657,
+    "LR[K=180]-YOLO11x-DOTAv1-23": 35128657,
+    "LR[K=180]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 35128657,
+    "LR[K=180]-YOLO11x-DOTAv1": 35128657,
+
+    "LR[K=220]-YOLO11x-DOTAv1-23": 39929017,
+    "LR[K=220]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 39929017,
+    "LR[K=220]-YOLO11x-DOTAv1": 39929017,
+    "LR[K=220]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 39929017,
+
+    "LR[K=265]-YOLO11x-DOTAv1-23": 45329422,
+    "LR[K=265]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 45329422,
+    "LR[K=265]-YOLO11x-DOTAv1": 45329422,
+    "LR[K=265]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 45329422,
+
+    "LR[K=300]-YOLO11x-DOTAv1-23": 49529737,
+    "LR[K=300]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 49529737,
+    "LR[K=300]-YOLO11x-DOTAv1": 49529737,
+    "LR[K=300]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 49529737,
+
+    "MLconv[R=500]-YOLO11x-DOTAv1-23": 50544037,
+    "MLconv[R=500]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 50544037,
+    "MLconv[R=500]-YOLO11x-DOTAv1": 50544037,
+    "MLconv[R=500]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 50544037,
+
+    "MLconv[R=430]-YOLO11x-DOTAv1-23": 45361657,
+    "MLconv[R=430]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 45361657,
+    "MLconv[R=430]-YOLO11x-DOTAv1": 45361657,
+    "MLconv[R=430]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 45361657,
+
+    "MLconv[R=350]-YOLO11x-DOTAv1-23": 39438937,
+    "MLconv[R=350]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 39438937,
+    "MLconv[R=350]-YOLO11x-DOTAv1": 39438937,
+    "MLconv[R=350]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 39438937,
+
+
+    "MLconv[R=300]-YOLO11x-DOTAv1-23": 35737237,
+    "MLconv[R=300]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 35737237,
+    "MLconv[R=300]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 35737237,
+    "MLconv[R=300]-YOLO11x-DOTAv1": 35737237,
+
+    "MLconv[R=150]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 24632137,
+    "MLconv[R=150]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 24632137,
+    "MLconv[R=150]-YOLO11x-DOTAv1 - metrics/mAP50-95(B)": 24632137,
+    "MLconv[R=150]-YOLO11x-DOTAv1-23 - metrics/mAP50-95(B)": 24632137,
+    "MLconv[R=150]-YOLO11x-DOTAv1": 24632137,
+    "MLconv[R=150]-YOLO11x-DOTAv1-23": 24632137,
+
+    "MLconv[R=100]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 20930437,
+    "MLconv[R=100]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 20930437,
+    "MLconv[R=100]-YOLO11x-DOTAv1 - metrics/mAP50-95(B)": 20930437,
+    "MLconv[R=100]-YOLO11x-DOTAv1-23 - metrics/mAP50-95(B)": 20930437,
+    "MLconv[R=100]-YOLO11x-DOTAv1": 20930437,
+    "MLconv[R=100]-YOLO11x-DOTAv1-23": 20930437,
+
+    "MLconv[R=50]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 17228737,
+    "MLconv[R=50]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 17228737,
+    "MLconv[R=50]-YOLO11x-DOTAv1 - metrics/mAP50-95(B)": 17228737,
+    "MLconv[R=50]-YOLO11x-DOTAv1-23 - metrics/mAP50-95(B)": 17228737,
+    "MLconv[R=50]-YOLO11x-DOTAv1": 17228737,
+    "MLconv[R=50]-YOLO11x-DOTAv1-23": 17228737,
+
+    "MTL[T=16]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 54544605,
+    "MTL[T=16]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 54544605,
+    "MTL[T=16]-YOLO11x-DOTAv1 - metrics/mAP50-95(B)": 54544605,
+    "MTL[T=16]-YOLO11x-DOTAv1-23 - metrics/mAP50-95(B)": 54544605,
+    "MTL[T=16]-YOLO11x-DOTAv1": 54544605,
+    "MTL[T=16]-YOLO11x-DOTAv1-23": 54544605,
+    
+    "MTL[T=17]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 50410269,
+    "MTL[T=17]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 50410269,
+    "MTL[T=17]-YOLO11x-DOTAv1 - metrics/mAP50-95(B)": 50410269,
+    "MTL[T=17]-YOLO11x-DOTAv1-23 - metrics/mAP50-95(B)": 50410269,
+    "MTL[T=17]-YOLO11x-DOTAv1": 50410269,
+    "MTL[T=17]-YOLO11x-DOTAv1-23": 50410269,
+
+    "MTL[T=23]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 47765789,
+    "MTL[T=23]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 47765789,
+    "MTL[T=23]-YOLO11x-DOTAv1 - metrics/mAP50-95(B)": 47765789,
+    "MTL[T=23]-YOLO11x-DOTAv1-23 - metrics/mAP50-95(B)": 47765789,
+    "MTL[T=23]-YOLO11x-DOTAv1": 47765789,
+    "MTL[T=23]-YOLO11x-DOTAv1-23": 47765789,
+
+    "MTL[T=24]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 46592541,
+    "MTL[T=24]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 46592541,
+    "MTL[T=24]-YOLO11x-DOTAv1 - metrics/mAP50-95(B)": 46592541,
+    "MTL[T=24]-YOLO11x-DOTAv1-23 - metrics/mAP50-95(B)": 46592541,
+    "MTL[T=24]-YOLO11x-DOTAv1": 46592541,
+    "MTL[T=24]-YOLO11x-DOTAv1-23": 46592541,
+
+    "MTL[T=30]-YOLO11x-DOTAv1": 45058205,
+    "MTL[T=30]-YOLO11x-DOTAv1-23": 45058205,
+    "MTL[T=30]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 45058205,
+    "MTL[T=30]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 45058205,
+    "MTL[T=30]-YOLO11x-DOTAv1 - metrics/mAP50-95(B)": 45058205,
+    "MTL[T=30]-YOLO11x-DOTAv1-23 - metrics/mAP50-95(B)": 45058205,
+
+    "MTL[T=36]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 42124445,
+    "MTL[T=36]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 42124445,
+    "MTL[T=36]-YOLO11x-DOTAv1 - metrics/mAP50-95(B)": 42124445,
+    "MTL[T=36]-YOLO11x-DOTAv1-23 - metrics/mAP50-95(B)": 42124445,
+    "MTL[T=36]-YOLO11x-DOTAv1": 42124445,
+    "MTL[T=36]-YOLO11x-DOTAv1-23": 42124445,
+
+    "MTL[T=60]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 39784349,
+    "MTL[T=60]-YOLO11x-DOTAv1": 39784349,
+    "MTL[T=60]-YOLO11x-DOTAv1-23": 39784349,
+    "MTL[T=60]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 39784349,
+
+    "MTL[T=61]-YOLO11x-DOTAv1-23 - metrics/mAP50(B)": 35067357,
+    "MTL[T=61]-YOLO11x-DOTAv1": 35067357,
+    "MTL[T=61]-YOLO11x-DOTAv1-23": 35067357,
+    "MTL[T=61]-YOLO11x-DOTAv1 - metrics/mAP50(B)": 35067357
+}

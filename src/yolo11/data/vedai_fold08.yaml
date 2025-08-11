@@ -1,0 +1,18 @@
+path: /work/datasets/vedai/processed/512/fold08
+train: images/train
+val: images/val
+test:
+
+# Classes
+names:
+  0: car
+  1: pickup
+  2: camping_car
+  3: truck
+  4: other
+  5: tractor
+  6: boat
+  7: van
+  8: bus
+  9: bicycle
+  10: motorcycle

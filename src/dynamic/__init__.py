@@ -1,0 +1,1 @@
+from .dynamic_mtl_resnet_auto import transform_resnet2dynamicmtl
