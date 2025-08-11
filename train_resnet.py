@@ -18,8 +18,9 @@ import numpy as np
 import json
 from src.regularization import group_lasso_regularization, do_clipping, compute_excess_parameters
 from src.lowrank_channel_mtl.lowrank_channel_mtl import LowRankChannelMTL
-# from utils.computation import calculate_model_multiplications, measure_cpu_inference_time
+from utils.computation import calculate_model_multiplications, measure_cpu_inference_time
             
+
 def train(args):
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
@@ -110,17 +111,17 @@ def train(args):
                             rank=args.rank
         )
 
-    # total_computation = calculate_model_multiplications(model, input_shape=(1, 3, 32, 32))
-    # print("Total computation in theory: ", total_computation)
+    total_computation = calculate_model_multiplications(model, input_shape=(1, 3, 32, 32))
+    print("Total computation in theory: ", total_computation)
 
-    # # Measure CPU inference time
-    # timing_results = measure_cpu_inference_time(
-    #     model=model,
-    #     input_shape=(1, 3, 32, 32),
-    #     num_runs=10000,
-    #     warmup_runs=20
-    # )
-    # print(f"Average: {timing_results['mean_ms']:.3f} ms")
+    # Measure CPU inference time
+    timing_results = measure_cpu_inference_time(
+        model=model,
+        input_shape=(1, 3, 32, 32),
+        num_runs=100,
+        warmup_runs=20
+    )
+    print(f"Average: {timing_results['mean_ms']:.3f} ms")
     # exit(0)
     
     num_cnn_layers = sum(1 for name, _ in model.named_modules() if isinstance(_, nn.Conv2d))
