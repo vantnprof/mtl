@@ -7,19 +7,9 @@ import numpy as np
 
 def group_lasso_regularization(model: nn.Module):
     reg_loss = 0.0
-    # sum_all_A_norm = 0
-    # sum_all_mtl_params = 0
-    # for name, module in model.named_modules():
-    #     if isinstance(module, LowRankChannelMTL) and module.A3 is not None:
-    #         A = module.A3 
-    #         B = module.B3
-    #         h = A.shape[1]
-    #         sum_all_mtl_params += (A.shape[0]+B.shape[1])*h
-            # sum_all_A_norm += torch.norm(A, p='fro')
-    for name, module in model.named_modules():
+    for _, module in model.named_modules():
         if isinstance(module, LowRankChannelMTL) and module.A3 is not None:
             A = module.A3 
-            B = module.B3
             h = A.shape[1]
             penalty = A.shape[0]*h/torch.norm(A, p='fro')
             reg_loss += penalty * torch.norm(A, dim=0).sum()
