@@ -1,4 +1,4 @@
-# Repository for Dynamic Feature Map Size, and Rank Adaptation Multilinear Transformation
+# Repository for Multilinear Transformation in CNNs
 
 
 ## Usages
