@@ -163,11 +163,11 @@ def train(args):
             # loss = criterion(outputs, labels)
             ce_loss = criterion(outputs, labels)
 
-            if args.lambda_ce < 1:
+            if args.lambda_reg < 1:
                 reg_loss = group_lasso_regularization(model=model)
             else:
                 reg_loss = 0
-            loss = args.lambda_ce * ce_loss + (1 - args.lambda_ce) * reg_loss
+            loss = (1 - args.lambda_reg) * ce_loss + args.lambda_reg * reg_loss
 
             loss.backward()
             optimizer.step()
@@ -250,7 +250,7 @@ def train(args):
               f"Val Loss: {val_loss:.4f} - "
               f"Val Acc: {val_accuracy:.2f}% - "
               f"Time: {epoch_duration:.2f}s"
-              f" - Best Val Loss: {best_val_loss:.4f} - "
+              f"Best Val Loss: {best_val_loss:.4f} - "
               f"Best Val Acc: {best_val_accuracy:.2f}%")
     
     final_model_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
@@ -274,7 +274,7 @@ if __name__ == "__main__":
     parser.add_argument("--batch", type=int, default=128, help="Batch size for training")
     parser.add_argument("--epochs", type=int, default=200, help="Number of epochs for training")
     parser.add_argument("--learning_rate", type=float, default=0.001, help="Learning rate for optimizer")
-    parser.add_argument("--lambda_ce", type=float, default=1.0, help="Weight for CE loss vs. regularization")
+    parser.add_argument("--lambda_reg", type=float, default=0.0, help="Weight for Reg loss vs. regularization")
     parser.add_argument("--clip_every", type=int, default=None, help="How often to perform rank clipping for LR-MTL")
     parser.add_argument("--clipping_threshold", type=float, default=0, help="Threshold for clipping the columns of LR-MTL")
     parser.add_argument("--use_absolute_clipping", action="store_true", help="Use absolute threshold or scaling")

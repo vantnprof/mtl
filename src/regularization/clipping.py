@@ -10,8 +10,6 @@ def do_clipping(model: nn.Module, threshold: float = 1e-4, use_absolute: bool=Fa
     print("[Clipping] Current threshold: {}".format(threshold))
     with torch.no_grad():
         for name, module in model.named_modules():
-            # print("Nihao...")
-            # input()
             if isinstance(module, LowRankChannelMTL) and module.A3 is not None:
                 A, B = module.A3.data, module.B3.data
                 col_norms = torch.norm(A, dim=0)
